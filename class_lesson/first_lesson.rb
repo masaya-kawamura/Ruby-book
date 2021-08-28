@@ -25,3 +25,5 @@ puts alice.full_name
 puts bob.full_name
 
 class User
+  #ここから下で定義されたメソッドはprivate
+  private
