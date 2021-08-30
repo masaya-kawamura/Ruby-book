@@ -1,7 +1,8 @@
 class Gate
+
   STATIONS = [:umeda, :juso, :mikuni]
   FARES = [150, 190]
-  # Gate.newで駅の名前をセットされる
+
   def initialize(name)
     @name = name
   end
